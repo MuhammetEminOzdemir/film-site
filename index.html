@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Film Sitesi</title>
+            <link rel="stylesheet" href="style.css">
+
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+            <!--Navbar start-->
+            <div class="navbar">
+                        <div class="navbar-wrapper">
+                                    <div class:="logo-wrapper">
+                                                <h1 class="logo"><a href="index.html">LOGO</a></h1>
+                                    </div>
+                                    <div class="menu-container">
+                                                <ul class="menu-list">
+                                                            <li class="menu-list-item">Ana Sayfa</li>
+                                                            <li class="menu-list-item">Filmler</li>
+                                                            <li class="menu-list-item">Diziler</li>
+                                                            <li class="menu-list-item">Listem</li>
+                                                            <li class="menu-list-item">Popüler</li>
+                                                </ul>
+                                    </div>
+
+                                    <div class="profile-container">
+                                                <img class="profile-picture" src="./resimler/profile_foto.jpeg" alt="">
+                                                <div class="profile-text-container">
+                                                            <span class="profile-text">Hesabım</span>
+                                                            <i class="bi bi-caret-down-fill"></i>
+                                                </div>
+                                                <div class="toggle">
+                                                            <i class="bi bi-moon-fill toggle-icon"></i>
+                                                            <i class="bi bi-brightness-high-fill toggle-icon"></i>
+                                                            <div class="toggle-ball"></div>
+                                                </div>
+                                    </div>
+                        </div>
+            </div>
+            <!--Navbar end-->
+            <!--sidebar start-->
+            <div class="sidebar">
+                        <i class="bi bi-search"></i>
+                        <i class="bi bi-house-door-fill"></i>
+                        <i class="bi bi-people-fill"></i>
+                        <i class="bi bi-bookmarks-fill"></i>
+                        <i class="bi bi-hourglass-top"></i>
+                        <i class="bi bi-cart-fill"></i>
+                        <i class="bi bi-gear-fill"></i>
+            </div>
+            <!--sidebar end-->
+
+            <!--content start-->
+            <div class="container">
+                        <div class="content-wrapper">
+                                    <div class="featured-container">
+                                                <img class="content-title" src="./resimler/png-transparent-marvel-avengers-logo-ultron-captain-america-baron-zemo-iron-man-marvel-comics-avengers-marvel-avengers-assemble-text-logo_transparent.png" alt="">
+                                                <p class="content-info">Güçleri. Stark'ın yaptığı zırh çok fonksiyonludur. Zırhın bilgisayarı 
+                                                J.A.R.V.I.S sayesinde düşmanlarını kolayca yenebilir. Zırhında çok gelişmiş güçlü ve akıllı
+                                                füzeler, değdiği yeri yok eden 
+                                                lazerler, manyetik kalkanlar, püskürtücü ışınlar (Repulsor) 
+                                                ve ayaklarında uçmaya yarayan roketleri vardır.
+                                                Tony Stark, son teknoloji zırhını kuşanarak süper kahraman Demir Adam kimliğine 
+                                                bürünen dahi bir mucit ve milyarder endüstriyalisttir.</p>
+
+                                                <div class="content-buttons">
+                                                            <button class="play-button"><i
+                                                                                    class="bi bi-play-circle"></i>Oynat</button>
+                                                            <button class="list-button"><i
+                                                                                    class="bi bi-bag-plus-fill"></i>Listeme
+                                                                        Ekle</button>
+                                                            <button class="info-button"><i
+                                                                                    class="bi bi-info-circle"></i>Daha
+                                                                        Fazla Bilgi</button>
+                                                </div>
+                                    </div>
+                        </div>
+                        <div class="movie-list-item">
+                                    <select>
+                                                <option value="1">Aksiyon</option>
+                                                <option value="2">Macera</option>
+                                                <option value="3">Bilim Kurgu</option>
+                                                <option value="4">Komedi</option>
+                                                <option value="5">Dram</option>
+                                                <option value="6">Korku</option>
+                                                <option value="7">Gerilim</option>
+                                                <option value="8">Romantik</option>
+                                                <option value="9">Fantastik</option>
+                                                <option value="13">Belgesel</option>
+
+                                    </select>
+                        </div>
+
+                        <!--movie list start-->
+                        <div class="movie-list-container">
+                                    <h1 class="movie-list-title">Popüler</h1>
+                                    <div class="movie-list-wrapper">
+                                                <ul class="movie-list">
+                                                            <li class="movie-item"><img class="movie-item-img" src="./resimler/squid_game.jpg" alt="">
+                                                                        <div class="movie-item-info">
+                                                                                    <span class="movie-item-title">SQUID GAME</span>
+                                                                                    <div class="movie-item-buttons">
+                                                                                                <i class="bi bi-play-circle-fill"></i>
+                                                                                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                                                                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                                                                                <i class="bi bi-plus-circle-fill"></i>
+                                                                                    </div>
+                                                                        </div>
+                                                            </li>
+
+                                                            <li class="movie-item"><img class="movie-item-img" src="./resimler/game_of_thrones.jpg" alt="">
+                                                                        <div class="movie-item-info">
+                                                                                    <span class="movie-item-title">GAME OF THRONES</span>
+                                                                                    <div class="movie-item-buttons">
+                                                                                                <i class="bi bi-play-circle-fill"></i>
+                                                                                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                                                                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                                                                                <i class="bi bi-plus-circle-fill"></i>
+                                                                                    </div>
+                                                                        </div>
+                                                            </li>
+
+                                                            <li class="movie-item"><img class="movie-item-img" src="./resimler/f3.jpg" alt="">
+                                                                        <div class="movie-item-info">
+                                                                                    <span class="movie-item-title">G.O.R.A</span>
+                                                                                    <div class="movie-item-buttons">
+                                                                                                <i class="bi bi-play-circle-fill"></i>
+                                                                                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                                                                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                                                                                <i class="bi bi-plus-circle-fill"></i>
+                                                                                    </div>
+                                                                        </div>
+                                                            </li>
+
+                                                            <li class="movie-item"><img class="movie-item-img" src="./resimler/irin_baba.jpg" alt="">
+                                                                        <div class="movie-item-info">
+                                                                                    <span class="movie-item-title">ŞİRİN BABA</span>
+                                                                                    <div class="movie-item-buttons">
+                                                                                                <i class="bi bi-play-circle-fill"></i>
+                                                                                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                                                                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                                                                                <i class="bi bi-plus-circle-fill"></i>
+                                                                                    </div>
+                                                                        </div>
+                                                            </li>
+
+                                                            <li class="movie-item"><img class="movie-item-img" src="./resimler/thor.jpg" alt="">
+                                                                        <div class="movie-item-info">
+                                                                                    <span class="movie-item-title">THOR III</span>
+                                                                                    <div class="movie-item-buttons">
+                                                                                                <i class="bi bi-play-circle-fill"></i>
+                                                                                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                                                                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                                                                                <i class="bi bi-plus-circle-fill"></i>
+                                                                                    </div>
+                                                                        </div>
+                                                            </li>
+
+                                                            <li class="movie-item"><img class="movie-item-img" src="./resimler/f6.jpg" alt="">
+                                                                        <div class="movie-item-info">
+                                                                                    <span class="movie-item-title">A.R.O.G</span>
+                                                                                    <div class="movie-item-buttons">
+                                                                                                <i class="bi bi-play-circle-fill"></i>
+                                                                                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                                                                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                                                                                <i class="bi bi-plus-circle-fill"></i>
+                                                                                    </div>
+                                                                        </div>
+                                                            </li>
+
+                                                            <li class="movie-item"><img class="movie-item-img" src="./resimler/f7.jpg" alt="">
+                                                                        <div class="movie-item-info">
+                                                                                    <span class="movie-item-title">DARK</span>
+                                                                                    <div class="movie-item-buttons">
+                                                                                                <i class="bi bi-play-circle-fill"></i>
+                                                                                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                                                                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                                                                                <i class="bi bi-plus-circle-fill"></i>
+                                                                                    </div>
+                                                                        </div>
+                                                            </li>
+
+                                                </ul>
+                                                <i class="bi bi-chevron-right arrow"></i>
+                                    </div>
+                        </div>
+
+                        <div class="movie-list-container">
+                                    <h1 class="movie-list-title">Gündemdekiler</h1>
+                                    <div class="movie-list-wrapper">
+                                                <ul class="movie-list">
+                                                            <li class="movie-item"><img class="movie-item-img" src="./resimler/spiderman.jpg" alt="">
+                                                                        <div class="movie-item-info">
+                                                                                    <span class="movie-item-title">SPIDER-MAN 3</span>
+                                                                                    <div class="movie-item-buttons">
+                                                                                                <i class="bi bi-play-circle-fill"></i>
+                                                                                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                                                                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                                                                                <i class="bi bi-plus-circle-fill"></i>
+                                                                                    </div>
+                                                                        </div>
+                                                            </li>
+
+                                                            <li class="movie-item"><img class="movie-item-img" src="./resimler/ironman_wallpaper.jpg" alt="">
+                                                                        <div class="movie-item-info">
+                                                                                    <span class="movie-item-title">IRON MAN III</span>
+                                                                                    <div class="movie-item-buttons">
+                                                                                                <i class="bi bi-play-circle-fill"></i>
+                                                                                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                                                                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                                                                                <i class="bi bi-plus-circle-fill"></i>
+                                                                                    </div>
+                                                                        </div>
+                                                            </li>
+
+                                                            <li class="movie-item"><img class="movie-item-img" src="./resimler/ultimate_avengers.jpg" alt="">
+                                                                        <div class="movie-item-info">
+                                                                                    <span class="movie-item-title">AVENGERS III</span>
+                                                                                    <div class="movie-item-buttons">
+                                                                                                <i class="bi bi-play-circle-fill"></i>
+                                                                                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                                                                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                                                                                <i class="bi bi-plus-circle-fill"></i>
+                                                                                    </div>
+                                                                        </div>
+                                                            </li>
+
+                                                            <li class="movie-item"><img class="movie-item-img" src="./resimler/f6.jpg" alt="">
+                                                                        <div class="movie-item-info">
+                                                                                    <span class="movie-item-title">A.R.O.G</span>
+                                                                                    <div class="movie-item-buttons">
+                                                                                                <i class="bi bi-play-circle-fill"></i>
+                                                                                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                                                                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                                                                                <i class="bi bi-plus-circle-fill"></i>
+                                                                                    </div>
+                                                                        </div>
+                                                            </li>
+
+                                                            <li class="movie-item"><img class="movie-item-img" src="./resimler/f5.jpg" alt="">
+                                                                        <div class="movie-item-info">
+                                                                                    <span class="movie-item-title">HOBBIT</span>
+                                                                                    <div class="movie-item-buttons">
+                                                                                                <i class="bi bi-play-circle-fill"></i>
+                                                                                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                                                                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                                                                                <i class="bi bi-plus-circle-fill"></i>
+                                                                                    </div>
+                                                                        </div>
+                                                            </li>
+
+                                                            <li class="movie-item"><img class="movie-item-img" src="./resimler/f1.jpg" alt="">
+                                                                        <div class="movie-item-info">
+                                                                                    <span class="movie-item-title">SPIDER MAN I</span>
+                                                                                    <div class="movie-item-buttons">
+                                                                                                <i class="bi bi-play-circle-fill"></i>
+                                                                                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                                                                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                                                                                <i class="bi bi-plus-circle-fill"></i>
+                                                                                    </div>
+                                                                        </div>
+                                                            </li>
+
+                                                            <li class="movie-item"><img class="movie-item-img" src="./resimler/game_of_thrones.jpg" alt="">
+                                                                        <div class="movie-item-info">
+                                                                                    <span class="movie-item-title">GAME OF THRONES</span>
+                                                                                    <div class="movie-item-buttons">
+                                                                                                <i class="bi bi-play-circle-fill"></i>
+                                                                                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                                                                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                                                                                <i class="bi bi-plus-circle-fill"></i>
+                                                                                    </div>
+                                                                        </div>
+                                                            </li>
+
+                                                </ul>
+                                                <i class="bi bi-chevron-right arrow"></i>
+                                    </div>
+                        </div>
+
+                        <div class="movie-list-container">
+                                    <h1 class="movie-list-title">Yeni Çıkanlar</h1>
+                                    <div class="movie-list-wrapper">
+                                                <ul class="movie-list">
+                                                            <li class="movie-item"><img class="movie-item-img" src="./resimler/f2.jpg" alt="">
+                                                                        <div class="movie-item-info">
+                                                                                    <span class="movie-item-title">HULK</span>
+                                                                                    <div class="movie-item-buttons">
+                                                                                                <i class="bi bi-play-circle-fill"></i>
+                                                                                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                                                                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                                                                                <i class="bi bi-plus-circle-fill"></i>
+                                                                                    </div>
+                                                                        </div>
+                                                            </li>
+
+                                                            <li class="movie-item"><img class="movie-item-img" src="./resimler/ironman_wallpaper.jpg" alt="">
+                                                                        <div class="movie-item-info">
+                                                                                    <span class="movie-item-title">IRON MAN III</span>
+                                                                                    <div class="movie-item-buttons">
+                                                                                                <i class="bi bi-play-circle-fill"></i>
+                                                                                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                                                                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                                                                                <i class="bi bi-plus-circle-fill"></i>
+                                                                                    </div>
+                                                                        </div>
+                                                            </li>
+
+                                                            <li class="movie-item"><img class="movie-item-img" src="./resimler/f3.jpg" alt="">
+                                                                        <div class="movie-item-info">
+                                                                                    <span class="movie-item-title">G.O.R.A</span>
+                                                                                    <div class="movie-item-buttons">
+                                                                                                <i class="bi bi-play-circle-fill"></i>
+                                                                                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                                                                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                                                                                <i class="bi bi-plus-circle-fill"></i>
+                                                                                    </div>
+                                                                        </div>
+                                                            </li>
+
+                                                            <li class="movie-item"><img class="movie-item-img" src="./resimler/f4.jpg" alt="">
+                                                                        <div class="movie-item-info">
+                                                                                    <span class="movie-item-title">DAREDEVIL</span>
+                                                                                    <div class="movie-item-buttons">
+                                                                                                <i class="bi bi-play-circle-fill"></i>
+                                                                                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                                                                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                                                                                <i class="bi bi-plus-circle-fill"></i>
+                                                                                    </div>
+                                                                        </div>
+                                                            </li>
+
+                                                            <li class="movie-item"><img class="movie-item-img" src="./resimler/f5.jpg" alt="">
+                                                                        <div class="movie-item-info">
+                                                                                    <span class="movie-item-title">HOBBIT</span>
+                                                                                    <div class="movie-item-buttons">
+                                                                                                <i class="bi bi-play-circle-fill"></i>
+                                                                                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                                                                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                                                                                <i class="bi bi-plus-circle-fill"></i>
+                                                                                    </div>
+                                                                        </div>
+                                                            </li>
+
+                                                            <li class="movie-item"><img class="movie-item-img" src="./resimler/irin_baba.jpg" alt="">
+                                                                        <div class="movie-item-info">
+                                                                                    <span class="movie-item-title">ŞİRİN BABA</span>
+                                                                                    <div class="movie-item-buttons">
+                                                                                                <i class="bi bi-play-circle-fill"></i>
+                                                                                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                                                                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                                                                                <i class="bi bi-plus-circle-fill"></i>
+                                                                                    </div>
+                                                                        </div>
+                                                            </li>
+
+                                                            <li class="movie-item"><img class="movie-item-img" src="./resimler/thor.jpg" alt="">
+                                                                        <div class="movie-item-info">
+                                                                                    <span class="movie-item-title">THOR</span>
+                                                                                    <div class="movie-item-buttons">
+                                                                                                <i class="bi bi-play-circle-fill"></i>
+                                                                                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                                                                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                                                                                <i class="bi bi-plus-circle-fill"></i>
+                                                                                    </div>
+                                                                        </div>
+                                                            </li>
+
+                                                </ul>
+                                                <i class="bi bi-chevron-right arrow"></i>
+                                    </div>
+                        </div>
+
+            </div>
+            <!--content end-->
+
+
+            <script src="script.js"></script>
+</body>
+</html>
