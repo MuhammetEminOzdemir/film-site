@@ -1,5 +1,5 @@
 # film-site
-Html Css Js kullanılarak hazırlanan film sitesi
+Html Css Js kullanılarak hazırlanan Full Responsive Film sitesi
 
 <b>https://meofilmsite.netlify.app/</b>
 
