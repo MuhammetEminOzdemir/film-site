@@ -9,7 +9,7 @@ PROJE HAKKINDA<br>
 3-Full Responsive<br>
 4-Resimler zedge uygulamasından alınmıştır.<br>
 5-Resimleri yana kaydırmak için js kullandım<br>
-
+6- İlerleyenzamnlarda dinamik hale gelecektir<br>
 
 ![Ekran Resmi 2023-05-13 21 58 55](https://github.com/MuhammetEminOzdemir/film-site/assets/80462839/1b349954-66c0-44bb-9fc7-0a50848f6dbb)
 
