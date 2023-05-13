@@ -3,7 +3,7 @@ Html Css Js kullanılarak hazırlanan film sitesi
 
 <b>https://meofilmsite.netlify.app/</b>
 
-PROJE HAKKINDA 
+PROJE HAKKINDA<br>
 1-İconlar için BootStrap iconlarını cdn olarak kullandım
 2-JavaScript ile dark mode (.active) light mode seçemekleri yaptım
 3-Full Responsive
